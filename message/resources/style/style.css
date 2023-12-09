@@ -3,3 +3,58 @@
     src: url('../font/Quicksand.ttf');
 }
 
+.root {
+    -fx-background-color: linear-gradient(to top right, #eab931, #f29448);
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.username {
+    -fx-font-family: 'Quicksand-Bold';
+    -fx-font-size: 15;
+    -fx-text-fill: #51a1c4;
+}
+
+.user-status {
+    -fx-font-family: 'Quicksand-Regular';
+    -fx-font-size: 10;
+    -fx-text-fill: #000000;
+}
+
+#inputBox {
+    -fx-background-radius: 30px;
+}
+
+.scroll-pane .scroll-bar {
+    -fx-opacity: 50;
+    -fx-background-color: #000000
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 5 5 5 5;
+}
+
+#sent-message {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.user-message {
+    -fx-padding: 5 10 5 10;
+    -fx-font-family: 'Quicksand-Regular';
+    -fx-background-color: #635cdd;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-background-radius: 15px;
+}
+
+.friend-message {
+    -fx-padding: 5 10 5 10;
+    -fx-font-family: 'Quicksand-Regular';
+    -fx-background-color: #d67598;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-background-radius: 15px;
+}

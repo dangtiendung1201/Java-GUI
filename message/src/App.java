@@ -9,7 +9,7 @@ import javafx.stage.StageStyle;
 import java.io.IOException;
 import java.util.Objects;
 
-public class DictionaryApp extends Application {
+public class App extends Application {
     private double xOffset = 0;
     private double yOffset = 0;
 
